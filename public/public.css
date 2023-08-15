@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #000204;
+  color: ghostwhite;
+}
+
+header {
+  padding: 1rem;
+  min-height: 10vh;
+  background-color: #98EECC;
+  color: #000204;
+
+}
+
+header h1 {
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-family: 'Cherry Bomb One', cursive;
+  font-weight: 200;
+}
+
+.reserve {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+
+form {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+form input,
+form select {
+  font-family: 'Poppins', sans-serif;
+  color: grey;
+  width: 100%;
+  padding: 1rem 4rem;
+  background: none;
+  border-radius: 1px;
+  border: 1px solid grey;
+}
+
+.people input {
+  width: 100%;
+}
+
+label {
+  font-family: 'Poppins', sans-serif;
+
+}
+
+span {
+  font-family: 'Poppins', sans-serif;
+
+  color: grey;
+  text-transform: capitalize;
+  font-style: italic;
+}
+
+button {
+  color: ghostwhite;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.1rem;
+  width: 100%;
+  padding: 1rem 4rem;
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  transition: all 0.3s ease-out;
+}
+
+button:hover {
+  border: none;
+  background: ghostwhite;
+  color: #000204;
+}
+
+.download {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.btn {
+  width: auto;
+}
+
+.btn .fa {
+  padding: 0.5rem;
+}
+
+.download h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-family: 'Barriecito', cursive;
+  font-weight: 200;
+}
+.btn a {
+  color: ghostwhite;
+  text-decoration: none;
+}
+.btn:hover a{
+  color: #000204;
+}
