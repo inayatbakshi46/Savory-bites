@@ -255,8 +255,4 @@ footer .social a{
   .card__description {
     font-size: 1.4rem;
   }
-  footer {
-    position: sticky;
-    bottom: 0;
-    ;
 }
